@@ -1,0 +1,34 @@
+#time-in-bed-chart {
+  height: 260px !important;
+}
+#time-in-bed-chart .recharts-cartesian-axis-tick-value {
+  font-size: 14px;
+}
+
+#time-in-bed-chart .recharts-cartesian-axis-line {
+  display: none;
+}
+
+#time-in-bed-chart .recharts-cartesian-axis-tick-line {
+  display: none !important;
+}
+
+/* #time-in-bed-chart .recharts-cartesian-axis-tick {
+  width: 100%;
+} */
+
+#time-in-bed-chart .recharts-legend-item-text {
+  color: var(--gray) !important;
+}
+
+#time-in-bed-chart .recharts-tooltip-cursor {
+  stroke: var(--dark-purple-4);
+}
+
+#time-in-bed-chart .recharts-legend-wrapper {
+  padding: 0 16px;
+}
+
+#time-in-bed-chart .recharts-legend-item {
+  margin-right: 24px !important;
+}

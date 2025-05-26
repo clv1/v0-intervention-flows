@@ -1,0 +1,17 @@
+#behaviour-insights-window {
+  background-color: var(--dark-purple-2);
+  border-radius: 16px;
+  padding: 10px 16px;
+  min-height: 200px;
+}
+
+#behaviour-insights-window p {
+  margin: 0;
+  font-size: 16px;
+  color: var(--white);
+  text-align: center;
+}
+
+#behaviour-insights-window .progress-bar-label {
+  font-size: 12px;
+}

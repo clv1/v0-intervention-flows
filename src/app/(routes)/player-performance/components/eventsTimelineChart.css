@@ -1,0 +1,39 @@
+.events-timeline-chart {
+  width: 100%;
+  border-radius: 8px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(11, 9, 20, 0.8); /* --dark-purple-2 with 80% opacity */
+}
+
+.events-timeline-chart .recharts-cartesian-axis-tick-value {
+  font-size: 12px;
+}
+
+.events-timeline-chart .recharts-cartesian-axis-line {
+  display: none;
+}
+
+.events-timeline-chart .recharts-cartesian-axis-tick-line {
+  display: none !important;
+}
+
+.events-timeline-chart .recharts-tooltip-cursor {
+  display: none;
+}
+
+/* Ensure SVG elements are visible */
+.events-timeline-chart svg {
+  overflow: visible;
+}
+
+/* Add some spacing between the chart and the container edges */
+.events-timeline-chart .recharts-wrapper {
+  padding: 0 8px;
+}
+
+/* Ensure dots are rendered on top */
+.events-timeline-chart .recharts-layer.recharts-line-dots {
+  z-index: 1;
+}

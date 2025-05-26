@@ -1,0 +1,30 @@
+#performance-line-chart {
+  height: 260px !important;
+}
+#performance-line-chart .recharts-cartesian-axis-tick-value {
+  font-size: 12px;
+}
+
+#performance-line-chart .recharts-cartesian-axis-line {
+  display: none;
+}
+
+#performance-line-chart .recharts-cartesian-axis-tick-line {
+  display: none !important;
+}
+
+#performance-line-chart .recharts-legend-item-text {
+  color: var(--gray) !important;
+}
+
+#performance-line-chart .recharts-tooltip-cursor {
+  stroke: var(--dark-purple-4);
+}
+
+#performance-line-chart .recharts-legend-wrapper {
+  padding: 0 16px;
+}
+
+#performance-line-chart .recharts-legend-item {
+  margin-right: 24px !important;
+}

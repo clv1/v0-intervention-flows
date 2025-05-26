@@ -1,0 +1,10 @@
+#checkbox-lists .metric-button {
+  background-color: var(--dark-purple-3);
+  color: var(--white);
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  /* margin: 30px; */
+}

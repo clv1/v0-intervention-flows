@@ -1,0 +1,48 @@
+#mental-data-window {
+  margin: 8px 0;
+  padding: 8px 0;
+  background-color: var(--dark-purple-2);
+  border-radius: 16px;
+}
+
+#mental-data-window  #dropdown {
+  width: fit-content;
+}
+
+#mental-data-window .barchart {
+  height: 300px;
+  padding: 8px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#mental-data-window .barchart > div {
+  flex: 1 1 50%;
+  min-height: 0;
+}
+
+#mental-data-window .recharts-cartesian-axis-tick-value {
+  font-size: 10px;
+}
+
+#mental-data-window .recharts-cartesian-axis-line {
+  display: none;
+}
+
+#mental-data-window .recharts-cartesian-axis-tick-line {
+  display: none !important;
+}
+
+#mental-data-window .recharts-rectangle {
+  border-radius: 30px;
+  fill: var(--chart-purple);
+}
+
+#mental-data-window path.recharts-tooltip-cursor {
+  fill: var(--dark-purple-3);
+}
+
+#mental-data-window path.recharts-tooltip-wrapper {
+  visibility: visible !important;
+}

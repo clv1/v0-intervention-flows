@@ -1,0 +1,20 @@
+#behaviour-frequency {
+  padding: 8px 0;
+  background-color: var(--dark-purple-2);
+  border-radius: 16px;
+}
+
+#behaviour-frequency p{
+  color: var(--white);
+}
+
+#behaviour-frequency p#title {
+  text-align: center;
+}
+
+#behaviour-frequency .linechart {
+  height: 200px;
+  padding: 8px 0;
+  background-color: var(--dark-purple-3);
+  border-radius: 16px;
+}

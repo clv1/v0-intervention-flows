@@ -1,0 +1,102 @@
+#period-selector {
+  background-color: var(--dark-purple-2);
+  width: fit-content;
+  padding: 6px 18px;
+  border-radius: 10px;
+  color: var(--white);
+  /* margin-top: 10px; */
+}
+
+#period-selector #date .date-picker-button,
+#period-selector #date .react-datepicker__input-container,
+#period-selector #date .react-datepicker-wrapper {
+  background-color: var(--dark-purple-4);
+  border-radius: 10px;
+}
+
+#period-selector #date .react-datepicker__navigation-icon--previous, 
+#period-selector #date .react-datepicker__navigation-icon--next {
+  right: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+
+#period-selector #date .react-datepicker-wrapper input {
+  caret-color: transparent;
+  background-color: var(--dark-purple-4);
+  border: 0;
+  color: var(--white);
+  cursor: pointer;
+  min-width: fit-content
+}
+
+#period-selector button {
+  background-color: var(--dark-purple-3);
+  border: 0;
+  color: var(--white);
+  padding: 2px 16px;
+  border-radius: 8px;
+}
+
+#period-selector button.active {
+  background-color: var(--dark-purple-4);
+}
+
+#period-selector #date .react-datepicker-wrapper input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#period-selector #date .react-datepicker-wrapper input:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.date-picker-button i {
+  font-size: 1.2rem;  /* Consistent icon size */
+}
+
+#period-selector #date .react-datepicker {
+  background-color: var(--dark-purple-3);
+  border: 1px solid #2a2a2a;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);  /* Increased shadow opacity from 0.5 to 0.7 */
+}
+
+#period-selector #date .react-datepicker__header {
+  background-color: var(--dark-purple-3);
+  border-bottom: 1px solid #2a2a2a;  /* Match the border color */
+}
+
+#period-selector #date .react-datepicker__current-month,
+#period-selector #date .react-datepicker__day-name,
+#period-selector #date .react-datepicker__day {
+  color: var(--white);
+}
+
+#period-selector #date .react-datepicker__current-month {
+  font-weight: normal;  /* Remove bold from month name */
+}
+
+#period-selector #date .react-datepicker__day--disabled {
+  color: var(--gray);  /* Disabled dates in gray */
+}
+
+#period-selector #date .react-datepicker__day--in-range,
+#period-selector #date .react-datepicker__day--in-selecting-range {
+  background-color: var(--light-purple);
+  color: var(--white);
+}
+
+#period-selector #date .react-datepicker__day--range-start,
+#period-selector #date .react-datepicker__day--range-end,
+#period-selector #date .react-datepicker__day--selecting-range-start,
+#period-selector #date .react-datepicker__day--selecting-range-end {
+  background-color: var(--light-purple);
+  color: var(--white);
+}
+
+#period-selector #date .react-datepicker__day:hover {
+  background-color: var(--chart-purple);
+  color: var(--white);
+}

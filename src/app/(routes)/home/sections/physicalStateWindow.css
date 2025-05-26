@@ -1,0 +1,11 @@
+#physical-data-window {
+  margin: 8px 0;
+  padding: 8px 0;
+  background-color: var(--dark-purple-2);
+  border-radius: 16px;
+}
+
+#physical-data-window .linechart {
+  height: 300px;
+  padding: 8px 0;
+}

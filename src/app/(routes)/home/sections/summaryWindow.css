@@ -1,0 +1,18 @@
+#summary-window {
+  background-color: var(--dark-purple-2);
+  color: var(--white);
+  margin: 8px 0;
+  padding: 8px 0;
+  border-radius: 16px;
+  width: 100%;
+}
+
+#summary-window #indicators {
+  width: 100%;
+  padding: 0 12px;
+  gap: 32px;
+}
+
+#summary-window #summary-indicator #graph {
+  left: -52px;
+}

@@ -1,0 +1,24 @@
+#player-stats .stat {
+  padding: 12px 8px;
+  margin: 0;
+}
+
+#player-stats .stat-change {
+  width: fit-content;
+  padding: 1px 4px !important;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+#player-stats .stat-change.up.show-caret {
+  color: var(--dark-green);
+  /* color: #5be12c; */
+  color: var(--light-green);
+}
+#player-stats .stat-change.down.show-caret {
+  /* color: var(--dark-red); */
+  color: var(--light-red);
+}
+#player-stats .stat-change.zero {
+  /* opacity: 0; */
+}

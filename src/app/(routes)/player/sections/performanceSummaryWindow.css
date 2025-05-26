@@ -1,0 +1,13 @@
+#performance-summary-window {
+  background-color: var(--dark-purple-2);
+  border-radius: 16px;
+  padding: 10px 16px;
+  height: 300px;
+  min-height: fit-content;
+}
+
+#performance-summary-window p {
+  font-size: 16px;
+  color: var(--white);
+  text-align: center;
+}

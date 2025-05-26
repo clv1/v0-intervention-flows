@@ -1,0 +1,67 @@
+#user-account-menu .settings-menu {
+  position: fixed;
+  left: 180px;
+  bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  background-color: #282830;
+  z-index: 100;
+  width: 225px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  user-select: none;
+  transition-duration: 0.25s;
+}
+
+#user-account-menu .closedMenu {
+  opacity: 0;
+  z-index: -1;
+}
+#user-account-menu .openedMenu {
+  opacity: 1;
+}
+
+#user-account-menu .settings-menu > a {
+  text-decoration: none;
+}
+#user-account-menu .settings-menu > a:hover > .menu-item {
+  margin-left: -1px;
+  background-color: var(--light-purple) !important;
+}
+#user-account-menu .menu-item:nth-child(1) {
+  font-size: 1rem;
+  padding: 15px;
+  margin: 0;
+  background-color: #282830 !important;
+  cursor: inherit;
+  margin-left: 3px;
+}
+#user-account-menu .menu-item:nth-child(1) > span {
+  color: #aaa !important;
+}
+#user-account-menu .menu-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 13px;
+  padding: 15px;
+  padding-left: 20px;
+  cursor: pointer;
+  transition-duration: 0.25s;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+#user-account-menu hr {
+  width: calc(100%);
+  border-color: #aaa;
+}
+#user-account-menu .menu-item svg {
+  color: #eee;
+}
+#user-account-menu .menu-item span {
+  color: #aaa;
+  transition-duration: 0.25s;
+}
+#user-account-menu .settings-menu > a:hover > .menu-item > span {
+  color: #eee !important;
+}
